@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PlayActivity"
+    android:orientation="vertical">
+
+  <TextView
+
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="My Quiz"
+      android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
+      android:gravity="center"
+      android:textSize="40sp"
+      android:fontFamily="@font/aclonica"
+      android:layout_margin="16dp"
+      android:textColor="#B30D0D"
+      android:includeFontPadding="false"
+
+
+      />
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:gravity="center"
+
+      >
+
+    <TextView
+        android:layout_margin="16dp"
+        android:gravity="center"
+        android:id="@+id/ScoreTv"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score:00"
+        android:textColor="@color/black"
+        android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
+        android:fontFamily="@font/aclonica"
+
+        />
+    <TextView
+        android:layout_margin="16dp"
+        android:gravity="center"
+        android:id="@+id/CountTv"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1/10"
+        android:textColor="@color/black"
+        android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
+        android:fontFamily="@font/aclonica"
+
+        />
+
+
+
+  </LinearLayout>
+
+  <TextView
+      android:id="@+id/TimerTv"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Time-00"
+      android:gravity="center"
+      android:fontFamily="@font/aclonica"
+      android:layout_margin="16dp"
+      android:textSize="30sp"
+      android:includeFontPadding="false"
+      android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
+      android:textColor="#D80606"
+      />
+  <TextView
+      android:id="@+id/MyDetailTv"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center"
+      android:fontFamily="@font/aclonica"
+      android:layout_margin="8dp"
+      android:text="My Details Biodata "
+      android:padding="8dp"
+      android:textColor="@color/white"
+      android:background="@drawable/back_16radius"
+      android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
+
+      />
+  <RadioButton
+      android:id="@+id/Optoin1"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Option"
+      android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
+      android:background="@drawable/back_16radius"
+      android:textColor="@color/white"
+      android:layout_margin="16dp"
+      />
+<RadioButton
+      android:id="@+id/Optoin2"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Option"
+      android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
+      android:background="@drawable/back_16radius"
+      android:textColor="@color/white"
+      android:layout_margin="16dp"
+
+      />
+<RadioButton
+      android:id="@+id/Optoin3"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Option"
+      android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
+      android:background="@drawable/back_16radius"
+      android:textColor="@color/white"
+      android:layout_margin="16dp"
+      />
+<RadioButton
+      android:id="@+id/Optoin4"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Option"
+      android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
+      android:background="@drawable/back_16radius"
+      android:textColor="@color/white"
+      android:layout_margin="16dp"
+
+      />
+
+
+  <androidx.appcompat.widget.AppCompatButton
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_margin="50dp"
+      android:text="Next Button"
+      android:fontFamily="@font/aclonica"
+      android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
+      android:background="@drawable/back_16radius"
+      android:textColor="@color/white"
+      />
+
+  </LinearLayout>
